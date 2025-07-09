@@ -18,7 +18,7 @@ header {
     background-image: url(/images/header_bg.png), url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: right bottom, left top;
-    margin-left: 2rem;
+    margin: 0 0 5rem 2rem;
 }
 .nav-bar {
     max-width: 75vw;
@@ -89,4 +89,78 @@ header {
     padding: 0.7rem 1.5rem;
     border-radius: 5px;
     cursor: pointer;
+}
+
+main {
+    max-width: 75vw;
+    margin: 5rem auto;
+}
+.about-section {
+    background: rgba(255, 180, 44, 0.4);
+    padding: 8rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 8rem auto 3rem;
+}
+.about-section h3 {
+    font-size: 2.3rem;
+    color: #222831;
+}
+.about-text {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 1.1px;
+    color: #3e4550;
+    margin: 2rem auto;
+}
+.about-details {
+    display: flex;
+    justify-content: space-between;
+}
+.about-details p {
+    font-size: 1.2rem;
+    color: #3e4550;
+    margin-bottom: 0.6rem;
+}
+.about-details h4 {
+    font-size: 1.2rem;
+    color: #222831;
+}
+.skill-section {
+    text-align: center;
+    margin: 3rem auto;
+}
+.skill {
+    padding: 3rem 6rem;
+}
+.skill h3 {
+    font-size: 2.3rem;
+    color: #222831;
+}
+.skills-text {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 1.1px;
+    color: #3e4550;
+    margin: 2rem auto;
+}
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.skill-content {
+    text-align: left;
+    padding: 1rem;
+    box-shadow: 10px 10px 20px 5px rgba(62, 69, 80, 0.1);
+}
+.skill-content h4 {
+    font-size: 1.3rem;
+    color: #222831;
+    padding: 1.2rem 0;
+}
+.skill-content p {
+    color: #3e4550;
+    line-height: 2rem;
+    letter-spacing: 0.8px;
 }
